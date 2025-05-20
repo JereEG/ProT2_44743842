@@ -1,0 +1,105 @@
+body {
+  background-color: #eaf2e3;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.centrado {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+.caja {
+  background-color: #d5f4e6;
+  padding: 15px;
+  margin: 10px;
+  border: 2px solid #69bd45;
+  border-radius: 8px;
+}
+header {
+  background-color: #69bd45;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+section {
+  padding: 20px;
+}
+footer {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 20px 0;
+}
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+nav {
+  background-color: #4caf50;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  background-color: #2f8247;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border: 3px solid #69bd45;
+  border-radius: 10px;
+}
+.logo-contenedor {
+  width: 150px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.logo-contenedor img {
+  width: 100%;
+  height: auto;
+}
+/*Estilos agregados para que se vea como en la imagen del ejemplo*/
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+
+.social-icons a.facebook {
+  color: #3b5998;
+}
+
+.social-icons a.twitter {
+  color: #1da1f2;
+}
+
+.social-icons a.instagram {
+  color: #e1306c;
+}
