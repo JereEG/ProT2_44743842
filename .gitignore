@@ -1,4 +1,7 @@
 .env
 
-\writable\debugbar\*
-\writable\cache\*
+writable/debugbar/*.json
+writable/cache/*.json
+writable/logs/*.log
+writable/session/*
+writable/uploads/*
