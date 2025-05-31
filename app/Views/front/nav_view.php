@@ -1,14 +1,8 @@
 <!-- Barra de navegación principal -->
-<?php
-$session = session();
-$nombre = $session->get('nombre');
-$perfil = $session->get('perfil_id');
-?>
-
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
         <a class="navbar-brand" href="<?php echo base_url('/'); ?>">
-            <img src="<?php echo base_url('assets/img/logo.png'); ?>" alt="Logo" height="50">
+            <img src="<?php echo base_url('assets/img/logo.png'); ?>" class="img-logo" alt="Logo" height="50">
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain"
@@ -24,17 +18,14 @@ $perfil = $session->get('perfil_id');
                     <a class="nav-link" href="<?php echo base_url('/'); ?>">Principal</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url('quienes_somos'); ?>">Quiénes Somos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url('acerca_de'); ?>">Acerca de</a>
+                    <a class="nav-link" href="<?php echo base_url('/catalogo'); ?>">Catálogo</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url('registrar'); ?>">Registrase</a>
+                    <a class="nav-link" href="<?php echo base_url('registro'); ?>">Registrase</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url('login'); ?>">Login</a>
+                    <a class="nav-link" href="<?php echo base_url('ingreso'); ?>">Ingresar</a>
                 </li>
 
                 <li class="nav-item dropdown">
@@ -43,9 +34,12 @@ $perfil = $session->get('perfil_id');
                         Más
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
-                        <li><a class="dropdown-item" href="<?php echo base_url('cards'); ?>">Cards</a></li>
-                        <li><a class="dropdown-item" href="<?php echo base_url('carrusel'); ?>">Carrusel</a></li>
-                        <li><a class="dropdown-item" href="<?php echo base_url('formulario'); ?>">Formulario</a></li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="<?php echo base_url('quienes_somos'); ?>">Quiénes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="<?php echo base_url('acerca_de'); ?>">Acerca de</a>
+                        </li>
                     </ul>
                 </li>
             </ul>
