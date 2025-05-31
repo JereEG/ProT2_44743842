@@ -14,7 +14,3 @@
 </head>
 
 <body>
-<header>
-    <img class="img-logo" src="<?php echo base_url('assets/img/logoHeader-green.png'); ?>" alt="" height="90px">
-    <h1>Bienvenido a nuestra página principal</h1>
-</header>
