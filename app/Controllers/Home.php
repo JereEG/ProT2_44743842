@@ -29,4 +29,29 @@ class Home extends BaseController
         echo view('front/acerca_de');
         echo view('front/footer_view');
     }
+    public function f_sitio_en_construccion()
+    {
+        $data['titulo'] = 'Sitio en Contruccion';
+        echo view('front/head_view', $data);
+        echo view('front/nav_view');
+        echo view('front/sitio_en_construccion');
+        echo view('front/footer_view');
+
+    }
+    public function f_terminos_y_condiciones()
+    {
+        $data['titulo'] = 'Términos y condiciones';
+        echo view('front/head_view', $data);
+        echo view('front/nav_view');
+        echo view('front/terminos_y_condiciones');
+        echo view('front/footer_view');
+    }
+    public function f_catalogo()
+    {
+        $data['titulo'] = 'Catalogo';
+        echo view('front/head_view', $data);
+        echo view('front/nav_view');
+        echo view('front/catalogo');
+        echo view('front/footer_view');
+    }
 }
